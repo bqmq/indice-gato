@@ -1,0 +1,1 @@
+Extensión de Chrome indica los resultados electorales en el ballotage del 2015 cuando se menciona una ciudad argentina en una pagina web.

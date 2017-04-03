@@ -1,0 +1,22 @@
+{
+"manifest_version": 2,
+    "name": "Índice Gato",
+    "description": "Índica el porcentaje de votos al gato en las ciudades mencionadas en la página web (Icono: iconsmind.com)",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "icons": { 
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png" 
+    }
+}
